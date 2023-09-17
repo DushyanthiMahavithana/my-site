@@ -1,0 +1,68 @@
+  .homeBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 77vh;
+    margin-top: 25px;
+  }
+  
+  .header {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 2rem;
+    color: rgb(255, 255, 255); 
+    height: 100%;
+    width: 100%;
+    position: relative; 
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .overlay h1 {
+    margin-top: 300px;
+    font-size: 50px;
+    margin-bottom: 1px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .overlay p {
+    font-size: 40px;
+    margin-bottom: 1px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header h1,
+.header p {
+  animation: fadeIn 3s ease-in-out forwards; 
+  opacity: 0;
+  transform: translateY(20px); 
+}
+
+
+
+ 

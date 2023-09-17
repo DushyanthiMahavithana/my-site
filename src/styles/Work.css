@@ -1,0 +1,167 @@
+.sub-topics {
+    grid-column: span 2;
+    justify-content: center; 
+    text-align: center; 
+    margin-top: 20px;   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+.work-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: auto;
+    height: auto;
+    place-items: center;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.projectItems{
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    padding: 20px;
+    line-height: 2;
+  }
+.projectItems div{
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.projectItems:hover {
+    background-color:lightgrey; 
+    transform: scale(1.05); 
+  }
+
+
+.dropdown-button {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+ 
+}
+
+.dropdown-button:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content {
+  display: block;
+  padding: 10px 0;
+  max-height: 500px;
+  width: 100%;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.dropdown-content div {
+  padding: 10px 20px; 
+  cursor: pointer; 
+}
+
+.show-dropdown-content {
+  max-height: 80px; 
+}
+
+.highlighted {  
+  font-weight: bold;
+  background-color: yellow; 
+}
+
+
+.work-list .highlighted {
+  border: 2px solid blue; 
+ 
+}
+@media only screen and (max-width: 1162px) {
+  .work-list {
+    grid-template-columns: repeat(2, 1fr); /* Display 2 projects per row */
+  }
+  .projectItems {
+    width: 80%; 
+    max-width: 500px; 
+    margin: 20px auto; 
+    box-shadow: 0px 2px 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    padding: 10px; 
+    line-height: 1.5;
+    align-items: center;
+  }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .work-list {
+    grid-template-columns: (2, 1fr);
+    margin: 10px;
+  }
+
+  .projectItems {
+    width: 80%; 
+    max-width: 500px; 
+    margin: 20px auto; 
+    box-shadow: 0px 2px 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    padding: 10px; 
+    line-height: 1.5;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .dropdown-button {
+    width: 100%; 
+    text-align: left; 
+  }
+
+  .dropdown-content {
+    max-height: 600px; 
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  .dropdown-content.show-dropdown-content {
+    max-height: 500px; /* Show dropdown contents with a maximum height */
+    transition: max-height 0.3s ease-in;
+  }
+
+  .dropdown-content div {
+    padding: 10px; 
+  }
+}
+
+
+@media only screen and (max-width: 685px) {
+
+  
+  .work-list {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+
+  .projectItems {
+    width: 90%; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 10px;
+    box-shadow: 0px 2px 5px;
+    transition: background-color 0.3s, transform 0.3s; 
+    line-height: 1.5;
+  }
+
+}
+
+

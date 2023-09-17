@@ -1,0 +1,29 @@
+.footer {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    
+  }
+  
+  .socialMedia {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    font-size: 40px;
+    margin: 0 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    
+  }
+  .icon-link{
+    color: black;
+  }
+
+  .icon-link:hover{
+    color: darkgray;
+  }
