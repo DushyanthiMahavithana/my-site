@@ -20,7 +20,7 @@ export const Projects=[
         pname:'Sunshine Tourism Web Application (Group Project)',
         planguage:'JavaScript, HTML, CSS',
         pabout:'Included A presentation page, main (home) page, a form to send a query, a form to allow people to buy products, sitemap, an interactive multiple-choice quiz and thumbnail images',
-        pyoutubelink:'not available',
+        pyoutubelink:'-',
         pgitlink:"https://github.com/DushyanthiMahavithana/Web-Application---Sunshine-Tourism-",
 
 
@@ -69,7 +69,7 @@ export const Projects=[
     },
     {
         pname:'My Web Site using React framework',
-        planguage:'JavaScript,HTML, CSS',
+        planguage:'JavaScript, HTML, CSS',
         pabout:'This web application is done using react. I added all my events, experiences and all my projects and deploy react app in Github this is the link to live site - (https://dushyanthimahavithana.github.io/my-site/)',
         pyoutubelink:'-',
         pgitlink:"https://github.com/DushyanthiMahavithana/my-site",
