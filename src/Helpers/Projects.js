@@ -20,7 +20,7 @@ export const Projects=[
         pname:'Sunshine Tourism Web Application (Group Project)',
         planguage:'JavaScript, HTML, CSS',
         pabout:'Included A presentation page, main (home) page, a form to send a query, a form to allow people to buy products, sitemap, an interactive multiple-choice quiz and thumbnail images',
-        pyoutubelink:'-',
+        pyoutubelink:'not available',
         pgitlink:"https://github.com/DushyanthiMahavithana/Web-Application---Sunshine-Tourism-",
 
 
