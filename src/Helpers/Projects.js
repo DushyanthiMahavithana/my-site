@@ -4,7 +4,7 @@ export const Projects=[
         pname:'Predict Progression Outcomes at the end of each academic year in a University',
         planguage:'Python',
         pabout:'The program should allow students to predict their progression outcome at the end of each academic year. The program should prompt for the number of credits at pass, defer and fail and then display the appropriate progression outcome for an individual student (i.e., progress, trailing,module retriever or exclude).',
-        pyoutubelink:'-',
+        pyoutubelink:'not available',
         pgitlink:"https://github.com/DushyanthiMahavithana/Software-Development---Python",
 
     },
