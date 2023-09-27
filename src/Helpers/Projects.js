@@ -60,15 +60,13 @@ export const Projects=[
 
     },
     {
-        pname:'Students Attendance Verification System (Group Project)',
+        pname:'Students Attendance Verification System ',
         planguage:'JavaScript,Python, HTML, CSS',
         pabout:'Tracking attendance for a large group of students while also making sure that the students understood the lecture is hard to accomplish using existing methods.An Attendance verification system which can also determine if a student has been paying attention to the lecture sessions, by generating automated questions using NLP.',
         pyoutubelink:'-',
         pgitlink:"https://github.com/ds1219/SDGP",
 
     },
-    {
-        pname:"hello",
-    }
+   
 
 ]
