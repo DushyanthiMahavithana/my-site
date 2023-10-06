@@ -60,7 +60,7 @@ export const Projects=[
 
     },
     {
-        pname:'Students Attendance Verification System (Group Project)',
+        pname:'Students Attendance Verification System ',
         planguage:'JavaScript,Python, HTML, CSS',
         pabout:'Tracking attendance for a large group of students while also making sure that the students understood the lecture is hard to accomplish using existing methods.An Attendance verification system which can also determine if a student has been paying attention to the lecture sessions, by generating automated questions using NLP.',
         pyoutubelink:'-',
@@ -69,11 +69,21 @@ export const Projects=[
     },
     {
         pname:'My Web Site using React framework',
-        planguage:'JavaScript,HTML, CSS',
-        pabout:'This web application is done using react. I added all my events, experiences and all my projects and deploy react app in Github - (https://dushyanthimahavithana.github.io/my-site/)',
+        planguage:'JavaScript, HTML, CSS',
+        pabout:'This web application is done using react. I added all my events, experiences and all my projects and deploy react app in Github this is the link to live site - (https://dushyanthimahavithana.github.io/my-site/)',
         pyoutubelink:'-',
         pgitlink:"https://github.com/DushyanthiMahavithana/my-site",
 
     },
+     {
+        pname:'My Web Site using React framework',
+        planguage:'' ,
+        pabout:'',
+        pyoutubelink:'-',
+        pgitlink:'',
+
+    },
+   
+   
 
 ]
