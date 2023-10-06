@@ -75,6 +75,14 @@ export const Projects=[
         pgitlink:"https://github.com/DushyanthiMahavithana/my-site",
 
     },
+     {
+        pname:'My Web Site using React framework',
+        planguage: ,
+        pabout:,
+        pyoutubelink:'-',
+        pgitlink:,
+
+    },
    
    
    
