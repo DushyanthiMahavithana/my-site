@@ -68,7 +68,7 @@ export const Projects=[
 
     },
     {
-        pname:'My Web Site using React',
+        pname:'My Web Site using React framework',
         planguage:'JavaScript,HTML, CSS',
         pabout:'This web application is done using react. I added all my events, experiences and all my projects and deploy react app in Github - (https://dushyanthimahavithana.github.io/my-site/)',
         pyoutubelink:'-',
