@@ -16,7 +16,9 @@ function ProjectItems({pname,planguage,pabout,pyoutubelink,pgitlink}) {
         <span style={projectTitleStyle}>Brief Introduction: </span>{pabout}
         </p>
         <p className='pyoutubelink'>
-        <span style={projectTitleStyle}>Project Explanation Video: </span>{pyoutubelink}
+        <span style={projectTitleStyle}>Project Explanation Video: </span><a href={pyoutubelink} target="_blank" rel="noopener noreferrer">
+          Watch My demonstration
+        </a>
         </p>
         <p className='pgitlink'>
         <span style={projectTitleStyle}>Find the code: </span><a href={pgitlink} target="_blank" rel="noopener noreferrer">

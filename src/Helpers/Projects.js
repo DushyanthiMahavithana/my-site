@@ -38,7 +38,7 @@ export const Projects=[
         pname:'Dice Game Android Application',
         planguage:'Kotlin',
         pabout:' Both players throw 5 dice at the same time.The score of each throw for each player is the sum of the numbers shown on the faces of the dice. The objective of the game is to reach a score of 101 or more. After a roll, each player may either score it or take up to two optional rerolls. For each reroll,they may reroll all of the dice or select any of the dice to keep and only reroll the remainder.',
-        pyoutubelink:'Click to watch my demonstration',
+        pyoutubelink:'https://youtu.be/TnU5R9D0WKQ',
         pgitlink:"https://github.com/DushyanthiMahavithana/MobileApplicationDevelopment",
 
 
@@ -47,7 +47,7 @@ export const Projects=[
         pname:'Meal Preparation Android Application',
         planguage:'Kotlin',
         pabout:'The application will be using the https://www.themealdb.com/api.php/ Web service and the Room Library to save information about meals.',
-        pyoutubelink:'Click to watch my demonstration',
+        pyoutubelink:'https://youtu.be/q5m2Co9se8c',
         pgitlink:"https://github.com/DushyanthiMahavithana/Mobile-Application-Development",
 
     },
@@ -76,11 +76,27 @@ export const Projects=[
 
     },
     {
-        pname:'My Web Site using React framework',
-        planguage:'JavaScript, HTML, CSS',
-        pabout:'This web application is done using react. I added all my events, experiences and all my projects and deploy react app in Github this is the link to live site - (https://dushyanthimahavithana.github.io/my-site/)',
+        pname:'Employee Management System using React and Springboot',
+        planguage:'Java, JavaScript, MySQL database, HTML, CSS',
+        pabout:'This web application is done using Springboot and react frameworks. User can add students information and it will save in the database.',
+        pyoutubelink:'https://youtu.be/qk9EeWKWCMc',
+        pgitlink:"https://github.com/DushyanthiMahavithana/Employee_Management_System_Backend",
+
+    },
+    {
+        pname:'MERN Login and Register Application using React Framework',
+        planguage:'JavaScript, MongoDB, HTML, CSS',
+        pabout:'In this application user can log in to the home page by register using the registration form. if user have already signup then can use login form. ',
         pyoutubelink:'-',
-        pgitlink:"https://github.com/DushyanthiMahavithana/my-site",
+        pgitlink:"https://github.com/DushyanthiMahavithana/login_and_regiter_app",
+
+    },
+    {
+        pname:'NextJs CRUD Application',
+        planguage:'JavaScript, MongoDB, HTML, CSS',
+        pabout:'',
+        pyoutubelink:'-',
+        pgitlink:"",
 
     },
      
