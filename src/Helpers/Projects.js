@@ -29,7 +29,7 @@ export const Projects=[
         pname:'Skin Consultation Centre',
         planguage:'Java (oop)',
         pabout:'Included console system from where the manager can add new doctors, delete if needed, add or cancel consultations, print and save. Also Graphical User Interface (GUI) from where we can see the list of doctors, book or edit consultations for patients, etc.',
-        pyoutubelink:'Click to watch my demonstration',
+        pyoutubelink:'-',
         pgitlink:"https://github.com/DushyanthiMahavithana/Software-Development---OOP",
 
 
@@ -87,16 +87,16 @@ export const Projects=[
         pname:'MERN Login and Register Application using React Framework',
         planguage:'JavaScript, MongoDB, HTML, CSS',
         pabout:'In this application user can log in to the home page by register using the registration form. if user have already signup then can use login form. ',
-        pyoutubelink:'-',
+        pyoutubelink:'https://youtu.be/nJMHEuz8-Nc',
         pgitlink:"https://github.com/DushyanthiMahavithana/login_and_regiter_app",
 
     },
     {
         pname:'NextJs CRUD Application',
         planguage:'JavaScript, MongoDB, HTML, CSS',
-        pabout:'',
+        pabout:'In this CRUD application user can add new tasks, edit them and delete them if want.',
         pyoutubelink:'-',
-        pgitlink:"",
+        pgitlink:"https://github.com/DushyanthiMahavithana/CRUD-Next.js",
 
     },
      
