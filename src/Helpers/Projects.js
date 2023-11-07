@@ -95,7 +95,7 @@ export const Projects=[
         pname:'NextJs CRUD Application',
         planguage:'JavaScript, MongoDB, HTML, CSS',
         pabout:'In this CRUD application user can add new tasks, edit them and delete them if want.',
-        pyoutubelink:'-',
+        pyoutubelink:'https://youtu.be/IPDqKwKSPqk',
         pgitlink:"https://github.com/DushyanthiMahavithana/CRUD-Next.js",
 
     },
